@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Is Colton the Scrub married yet?</title>
+    <meta name="description" content="Is Colton the Scrub married yet?" />
+    <meta name="author" content="Jacobi and Praha Productions" />
+
+    <style>
+      .content {
+        display: flex;
+        align-items: center;
+        height: 90vh;
+        width: 99.5vw;
+        justify-content: center;
+      }
+      .status {
+        font-size: 256px;
+        line-height: 1;
+        margin: 0;
+        text-align: center;
+      }
+      .secret {
+        font-size: 16px;
+        text-align: center;
+      }
+
+      .secret a {
+        color: black;
+      }
+      .footer {
+        font-size: 10px;
+        text-align: center;
+      }
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: black;
+          color: #ccc;
+        }
+
+        .secret a {
+          color: #ccc;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="content">
+      <div>
+        <h1 class="status">No</h1>
+      </div>
+    </div>
+    <p class="footer">© Jacobi and Praha Productions, All Rights Reserved, 2024</p>
+    <script>
+      if (new Date().getDate() === 7 && new Date().getMonth() === 3) {
+        var elem = document.createElement('p');
+        elem.className = 'secret';
+        elem.innerHTML = 'Also Happy Birthday you idiot!';
+        document.querySelector('.content').querySelector('div').appendChild(elem);
+      }
+    </script>
+  </body>
+</html>
